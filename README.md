@@ -24,7 +24,9 @@
 
 <p align="center">
   <a href="https://github.com/weiqiang612/Personal-CRM-Intelligent-Contact-Management-Platform">Personal CRM</a> ·
-  <a href="https://github.com/weiqiang612/Ethan_Notes">Engineering Notes</a>
+  <a href="https://github.com/weiqiang612/Ethan_Notes">Engineering Notes</a> ·
+  <a href="https://github.com/weiqiang612/skillport">Skillport</a> ·
+  <a href="https://github.com/weiqiang612/dev-standards">Dev Standards</a>
 </p>
 
 <p align="center">
