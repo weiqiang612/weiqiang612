@@ -10,6 +10,10 @@
 </p>
 
 <p align="center">
+  围墙，关注那些需要被跨越的围墙。
+</p>
+
+<p align="center">
   我关注的不是只停留在 prompt demo 的 Agent，而是有真实后端工程支撑的 Agent 系统：
   清晰的领域边界、可持久化的工作流状态、可靠的工具调用、检索增强、评估与失败恢复。
 </p>
@@ -31,6 +35,16 @@
   <img alt="Vue" src="https://img.shields.io/badge/Vue-42B883?style=for-the-badge&logo=vuedotjs&logoColor=white" />
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
 </p>
+
+## 为什么叫「围墙」？
+
+选择这个名字，并不是为了筑起围墙。
+
+相反，它提醒我：每个时代都会出现新的围墙。它可能来自技术、知识，也可能来自信息的不对称。
+
+我相信，真正有价值的技术，不应该成为少数人的特权，而应该帮助更多普通人跨越这些门槛。
+
+**围墙，关注那些需要被跨越的围墙。**
 
 ## 我正在构建的方向
 
