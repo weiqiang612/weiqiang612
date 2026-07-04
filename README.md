@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  Currently exploring how AI Agents move from demos into production-grade applications.
+  Currently exploring how AI Agents move from demos into production-grade applications, while sharing interesting and practical Agent usage patterns.
 </p>
 
 <p align="center">
@@ -59,6 +59,7 @@ My current focus is Agent productionization:
 - Connecting RAG pipelines with documents, domain data, and user intent
 - Evaluating whether an agent completed the right task, not only whether it returned fluent text
 - Integrating agent capability into real CRM, admin, and automation workflows
+- Turning interesting and practical Agent usage patterns into content that ordinary developers can understand and reuse
 
 ## Engineering Foundation
 
@@ -76,7 +77,7 @@ My current focus is Agent productionization:
 | Project | Positioning |
 | --- | --- |
 | [Personal CRM Intelligent Contact Management Platform](https://github.com/weiqiang612/Personal-CRM-Intelligent-Contact-Management-Platform) | My main full-stack product and Agent landing practice. It includes contact management, reminders, activity timeline, dashboard, deployment, and a Contact Agent with query and confirmed write actions. Public demo: `crm.weiqiang.me` |
-| [Ethan Notes](https://github.com/weiqiang612/Ethan_Notes) | My long-term engineering knowledge base for Java, MySQL, Redis, system design, and Agent-related learning notes |
+| [Ethan Notes](https://github.com/weiqiang612/Ethan_Notes) | My long-term engineering knowledge base for Java, MySQL, Redis, system design, Agent learning notes, and practical Agent usage patterns |
 | [Bagu Basecamp](https://github.com/weiqiang612/bagu-basecamp) | A structured review base for backend fundamentals and AI-assisted study workflows |
 
 ## Practice Series
