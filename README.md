@@ -10,6 +10,10 @@
 </p>
 
 <p align="center">
+  Weiqiang means "wall" in Chinese. I use it as a reminder to look at the walls worth crossing.
+</p>
+
+<p align="center">
   Building agent systems with real backend engineering behind them: domain boundaries,
   durable workflow state, reliable tool use, retrieval grounding, evaluation, and failure recovery.
 </p>
@@ -31,6 +35,18 @@
   <img alt="Vue" src="https://img.shields.io/badge/Vue-42B883?style=for-the-badge&logo=vuedotjs&logoColor=white" />
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
 </p>
+
+## Why "weiqiang"?
+
+`weiqiang` means "wall" in Chinese.
+
+I did not choose this name to build a wall.
+
+The name reminds me that every era creates new walls. They may come from technology, knowledge, or information asymmetry.
+
+I believe valuable technology should not become a privilege for a few people. It should help more people cross those thresholds.
+
+**weiqiang focuses on the walls that need to be crossed.**
 
 ## What I'm Building Toward
 
