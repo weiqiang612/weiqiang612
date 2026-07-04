@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  正在探索 AI Agent 如何从 demo 走向可落地的生产级应用。
+  正在探索 AI Agent 如何从 demo 走向可落地的生产级应用，也会分享一些有趣、实用的 Agent 使用技巧。
 </p>
 
 <p align="center">
@@ -57,6 +57,7 @@
 - 如何把 RAG 和真实业务数据、文档、用户意图连接起来
 - 如何评估 Agent 是否真的完成了任务，而不只是生成了一段看起来合理的回答
 - 如何把 Agent 能力嵌入 CRM、后台管理、自动化流程这类真实产品场景
+- 如何把有趣、实用的 Agent 使用技巧整理成普通开发者也能快速理解和复用的内容
 
 ## 工程基础
 
@@ -74,7 +75,7 @@
 | 项目 | 定位 |
 | --- | --- |
 | [Personal CRM Intelligent Contact Management Platform](https://github.com/weiqiang612/Personal-CRM-Intelligent-Contact-Management-Platform) | 我的主要全栈产品和 Agent 落地实践。项目包含联系人管理、事项提醒、活动轨迹、数据看板、部署上线，以及支持查询和确认式写操作的 Contact Agent。公网演示：`crm.weiqiang.me` |
-| [Ethan Notes](https://github.com/weiqiang612/Ethan_Notes) | 长期维护的工程知识库，覆盖 Java、MySQL、Redis、系统设计与 Agent 相关学习笔记 |
+| [Ethan Notes](https://github.com/weiqiang612/Ethan_Notes) | 长期维护的工程知识库，覆盖 Java、MySQL、Redis、系统设计、Agent 学习笔记，也会沉淀有趣、实用的 Agent 使用技巧 |
 | [Bagu Basecamp](https://github.com/weiqiang612/bagu-basecamp) | 用于后端基础复习和 AI 辅助学习流程的结构化复习基地 |
 
 ## 练习项目
