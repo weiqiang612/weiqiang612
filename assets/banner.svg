@@ -1,0 +1,68 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Ethan GitHub Profile Banner</title>
+  <desc id="desc">A technical banner for Java backend, AI agent, RAG, and engineering automation work.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1020"/>
+      <stop offset="0.54" stop-color="#101827"/>
+      <stop offset="1" stop-color="#172033"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="180" y1="40" x2="1080" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EEAD4"/>
+      <stop offset="0.45" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#2A3448" stroke-width="1" opacity="0.55"/>
+    </pattern>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="28" fill="url(#grid)" opacity="0.72"/>
+  <path d="M80 312C226 210 318 280 454 172C568 82 692 134 780 94C906 37 1030 92 1198 54" stroke="url(#accent)" stroke-width="2" opacity="0.45"/>
+  <path d="M72 342C242 246 360 330 498 214C628 105 716 186 830 130C956 68 1054 156 1208 108" stroke="url(#accent)" stroke-width="2" opacity="0.28"/>
+
+  <circle cx="1070" cy="96" r="76" fill="#60A5FA" opacity="0.12" filter="url(#soft)"/>
+  <circle cx="965" cy="310" r="94" fill="#5EEAD4" opacity="0.1" filter="url(#soft)"/>
+
+  <g transform="translate(72 76)">
+    <rect x="0" y="0" width="512" height="268" rx="20" fill="#0F172A" stroke="#344154"/>
+    <rect x="0" y="0" width="512" height="44" rx="20" fill="#111C2E"/>
+    <circle cx="28" cy="22" r="6" fill="#F87171"/>
+    <circle cx="50" cy="22" r="6" fill="#FBBF24"/>
+    <circle cx="72" cy="22" r="6" fill="#34D399"/>
+    <text x="28" y="88" fill="#5EEAD4" font-family="Consolas, Monaco, monospace" font-size="22">class EthanProfile {</text>
+    <text x="54" y="126" fill="#CBD5E1" font-family="Consolas, Monaco, monospace" font-size="20">focus = "Java Backend";</text>
+    <text x="54" y="162" fill="#CBD5E1" font-family="Consolas, Monaco, monospace" font-size="20">builds = ["AI Agents", "RAG"];</text>
+    <text x="54" y="198" fill="#CBD5E1" font-family="Consolas, Monaco, monospace" font-size="20">caresAbout = "Reliable Systems";</text>
+    <text x="28" y="236" fill="#5EEAD4" font-family="Consolas, Monaco, monospace" font-size="22">}</text>
+  </g>
+
+  <g transform="translate(650 86)">
+    <text x="0" y="42" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="800">Ethan</text>
+    <text x="0" y="92" fill="#C7D2FE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="600">Java Backend · AI Agent · RAG Systems</text>
+    <text x="0" y="134" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20">Building reliable backend systems and agent workflows</text>
+    <text x="0" y="164" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20">with clear architecture, observability, and pragmatic tradeoffs.</text>
+
+    <g transform="translate(0 204)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">
+      <rect x="0" y="0" width="116" height="36" rx="18" fill="#13263A" stroke="#2DD4BF"/>
+      <text x="21" y="24" fill="#A7F3D0">Spring</text>
+      <rect x="132" y="0" width="98" height="36" rx="18" fill="#142238" stroke="#60A5FA"/>
+      <text x="159" y="24" fill="#BFDBFE">MySQL</text>
+      <rect x="246" y="0" width="92" height="36" rx="18" fill="#241A33" stroke="#A78BFA"/>
+      <text x="274" y="24" fill="#DDD6FE">Redis</text>
+      <rect x="354" y="0" width="138" height="36" rx="18" fill="#1B2638" stroke="#38BDF8"/>
+      <text x="379" y="24" fill="#BAE6FD">Tool Calling</text>
+    </g>
+  </g>
+
+  <g opacity="0.86" stroke="#5EEAD4" stroke-width="2">
+    <circle cx="1086" cy="262" r="7" fill="#0F172A"/>
+    <circle cx="1134" cy="222" r="7" fill="#0F172A"/>
+    <circle cx="1178" cy="272" r="7" fill="#0F172A"/>
+    <path d="M1092 257L1128 227M1140 228L1172 266M1093 266L1171 272"/>
+  </g>
+</svg>
