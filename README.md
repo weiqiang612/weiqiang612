@@ -1,12 +1,16 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Ethan - Java Backend, AI Agent, RAG Systems" width="100%" />
+  <img src="./assets/banner.svg" alt="weiqiang - Backend-grounded Agent Developer and Researcher" width="100%" />
 </p>
 
-<h2 align="center">Java Backend Developer · AI Agent Builder · Systems Learner</h2>
+<h2 align="center">weiqiang · Backend-grounded Agent Developer & Researcher</h2>
 
 <p align="center">
-  I build backend systems, RAG applications, and agent-based tools with a focus on clear architecture,
-  observable workflows, and pragmatic engineering tradeoffs.
+  I focus on building agent systems with real backend engineering behind them: clear domain boundaries,
+  durable workflow state, reliable tool use, retrieval grounding, evaluation, and failure recovery.
+</p>
+
+<p align="center">
+  Currently exploring how AI Agents move from demos into production-grade applications.
 </p>
 
 <p align="center">
@@ -25,65 +29,57 @@
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
 </p>
 
-## Engineering Focus
+## What I'm Building Toward
 
-- Backend architecture with Java, Spring Boot, MySQL, Redis, and domain-oriented API design
-- AI Agent and RAG systems with retrieval pipelines, tool calling, workflow state, and evaluation
-- Reliability concerns such as transaction boundaries, concurrency control, caching strategy, and failure recovery
-- Developer productivity through documentation-driven development, automation, and Codex-assisted workflows
+I want `weiqiang` to represent a practical direction: **agent applications that are grounded in backend systems, not just prompt demos**.
 
-## Technical Stack
+My current exploration is around:
 
-| Area | Tools |
+- Agent workflows that can be represented as explicit, recoverable state machines
+- Tool-calling systems with permission checks, confirmations, retries, and audit trails
+- RAG pipelines that connect documents, domain data, and user intent in a maintainable way
+- Evaluation loops that test whether an agent did the right thing, not only whether it returned text
+- Product integration patterns for bringing agent capability into real CRM, admin, and automation workflows
+
+## Engineering Foundation
+
+| Area | Focus |
 | --- | --- |
-| Backend | Java, Spring Boot, MyBatis, MyBatis-Plus, REST APIs, JWT |
-| Data | MySQL, Redis, Elasticsearch |
-| AI / Agent | RAG, Tool Calling, Workflow Orchestration, OpenAI-compatible APIs |
+| Backend | Java, Spring Boot, MyBatis / MyBatis-Plus, REST APIs, JWT, domain-oriented service design |
+| Data | MySQL transactions and indexing, Redis caching and consistency, Elasticsearch basics |
+| Agent / AI | RAG, tool calling, workflow orchestration, context assembly, evaluation, OpenAI-compatible APIs |
 | Frontend | Vue 3, Vite, TypeScript, Pinia, Element Plus, ECharts |
-| Infrastructure | Docker Compose, Linux, Nginx, GitHub Actions |
-| Engineering | TDD, Code Review, System Design, Documentation |
+| Deployment | Docker Compose, Linux, Nginx, environment configuration, public demo delivery |
+| Engineering Practice | Documentation-driven development, code review, test planning, system design notes |
 
-## Selected Projects
+## Selected Work
 
-| Project | Focus | Stack |
-| --- | --- | --- |
-| [Personal CRM Intelligent Contact Management Platform](https://github.com/weiqiang612/Personal-CRM-Intelligent-Contact-Management-Platform) | Contact lifecycle management, reminders, activity timeline, dashboard, avatar upload, and Contact Agent workflows. Public demo: `crm.weiqiang.me` | Spring Boot 3.5, Java 17, MyBatis-Plus, MySQL 8, Redis, Vue 3, TypeScript, Docker Compose, Nginx |
-| [Sky Take Out](https://github.com/weiqiang612/sky-take-out) | Backend practice project around ordering, store operations, and service-layer business flows | Java, Spring Boot, MySQL, Redis |
-| [Project Sky Admin Vue TS](https://github.com/weiqiang612/project-sky-admin-vue-ts) | Admin frontend for operational workflows and management screens | Vue, TypeScript |
-| [Ethan Notes](https://github.com/weiqiang612/Ethan_Notes) | Structured backend notes for Java, MySQL, Redis, system design, and interview review | Markdown, Obsidian |
-| [Bagu Basecamp](https://github.com/weiqiang612/bagu-basecamp) | Study workflow and review base for backend fundamentals and AI-assisted preparation | Next.js, Markdown |
+| Project | Why it matters |
+| --- | --- |
+| [Personal CRM Intelligent Contact Management Platform](https://github.com/weiqiang612/Personal-CRM-Intelligent-Contact-Management-Platform) | My main full-stack product practice: contacts, reminders, activity timeline, dashboard, avatar upload, deployment, and a Contact Agent with query and confirmed write actions. Public demo: `crm.weiqiang.me` |
+| [Sky Take Out](https://github.com/weiqiang612/sky-take-out) | Backend business-flow practice around ordering, store operations, service layers, MySQL, and Redis |
+| [Project Sky Admin Vue TS](https://github.com/weiqiang612/project-sky-admin-vue-ts) | Admin-side frontend practice for operational management workflows |
+| [Ethan Notes](https://github.com/weiqiang612/Ethan_Notes) | Long-term engineering notes for Java, MySQL, Redis, system design, and backend interview preparation |
+| [Bagu Basecamp](https://github.com/weiqiang612/bagu-basecamp) | A study workflow base for structured review and AI-assisted preparation |
 
-## System Thinking
+## Agent Productionization Map
 
-```mermaid
-flowchart LR
-  user[User] --> api[Spring Boot API]
-  api --> domain[Domain Services]
-  domain --> data[(MySQL / Redis)]
-  domain --> agent[Agent Orchestration]
-  agent --> rag[RAG Pipeline]
-  agent --> tools[Tool Calling]
-  agent --> eval[Evaluation / Recovery]
-```
+<p align="center">
+  <img src="./assets/agent-architecture.svg" alt="Agent productionization architecture map" width="100%" />
+</p>
 
-## Engineering Notes
+## Current Research Questions
 
-I keep learning notes and implementation experiments around:
-
-- Java concurrency, JVM fundamentals, and backend design patterns
-- MySQL indexing, transactions, isolation levels, and query optimization
-- Redis caching, expiration, consistency, and high-frequency interview topics
-- RAG architecture, AI Agent execution safety, state tracking, and evaluation
+- How should an agent remember state without hiding critical control flow?
+- Where should permission checks, user confirmations, and rollback paths live?
+- How can RAG be evaluated against real domain tasks instead of generic Q&A?
+- What belongs in deterministic backend code, and what should be delegated to the model?
+- How can agent behavior be made observable enough for debugging and review?
 
 ## Principles
 
-- Prefer explicit state over hidden control flow
-- Design APIs around domain behavior, not only database tables
-- Treat AI agents as systems with uncertain outputs and observable failure states
-- Keep documentation close to implementation
-- Optimize for maintainability before cleverness
-
-<p align="center">
-  <img height="160" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=weiqiang612&show_icons=true&theme=github_dark&hide_border=true" />
-  <img height="160" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiqiang612&layout=compact&theme=github_dark&hide_border=true" />
-</p>
+- Backend systems are the control plane; agents are one capability inside them
+- Prefer explicit state, typed contracts, and audit trails over implicit prompt behavior
+- Treat tool calling as a production workflow with permissions, validation, and recovery
+- Keep documentation close to implementation so design decisions stay inspectable
+- Build small working loops first, then expand the agent's authority gradually
